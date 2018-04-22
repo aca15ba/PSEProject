@@ -1,0 +1,22 @@
+Name of source code file: evaluator/test.java
+General Style Information
+-Source Language: Java
+-Number of Classes: 1
+-Number of Methods: 1
+-Total No. of lines in source: 47
+-No. of lines of Code: 31
+-No. of blank lines: 6
+-No. of lines of comments: 10
+-Percentage of lines of comments: 21.28%
+-Longest Line: 11
+-Length of longest line: 82
+-Number of variables: 8
+-Number of single character variable names: 3
+-Number of other variables: 5
+
+
+Style Evaluation
+No Style Errors
+
+ 
+

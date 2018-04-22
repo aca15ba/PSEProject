@@ -1,0 +1,114 @@
+Name of source code file: evaluator/java_evaluator.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 1
+-Number of Functions: 7
+-Total No. of lines in source: 145
+-No. of lines of Code: 108
+-No. of blank lines: 20
+-No. of lines of comments: 17
+-Percentage of lines of comments: 11.72%
+-Longest Line: 71
+-Length of longest line: 133
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
+Name of source code file: evaluator/general_evluator.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 1
+-Number of Functions: 2
+-Total No. of lines in source: 63
+-No. of lines of Code: 56
+-No. of blank lines: 4
+-No. of lines of comments: 3
+-Percentage of lines of comments: 4.76%
+-Longest Line: 54
+-Length of longest line: 110
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
+Name of source code file: evaluator/__init__.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 0
+-Number of Functions: 0
+-Total No. of lines in source: 1
+-No. of lines of Code: 0
+-No. of blank lines: 0
+-No. of lines of comments: 0
+-Percentage of lines of comments: 0.00%
+-Longest Line: 0
+-Length of longest line: 0
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
+Name of source code file: evaluator/python_evaluator.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 1
+-Number of Functions: 3
+-Total No. of lines in source: 65
+-No. of lines of Code: 47
+-No. of blank lines: 5
+-No. of lines of comments: 13
+-Percentage of lines of comments: 20.00%
+-Longest Line: 46
+-Length of longest line: 122
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
+Name of source code file: evaluator/evaluator.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 3
+-Number of Functions: 10
+-Total No. of lines in source: 187
+-No. of lines of Code: 154
+-No. of blank lines: 26
+-No. of lines of comments: 7
+-Percentage of lines of comments: 3.74%
+-Longest Line: 179
+-Length of longest line: 133
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
+Name of source code file: evaluator/__main__.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 0
+-Number of Functions: 0
+-Total No. of lines in source: 2
+-No. of lines of Code: 2
+-No. of blank lines: 0
+-No. of lines of comments: 0
+-Percentage of lines of comments: 0.00%
+-Longest Line: 1
+-Length of longest line: 28
+
+
+Style Evaluation
+No Style Errors
+
+ 
+
