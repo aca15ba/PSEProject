@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ed999a-bdbf-472a-b37c-2ea7ca64e358" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/evaluator_py.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/general_evluator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/java_evaluator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/python_evaluator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/evaluator/test_java.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/test_evaluator.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/evaluator/evaluator.py" afterPath="$PROJECT_DIR$/evaluator/evaluator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -276,6 +266,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="General information done." />
+    <option name="LAST_COMMIT_MESSAGE" value="General information done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
