@@ -11,7 +11,7 @@ class Contents
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter dirpath:");
-        String dirpath=br.readLine();
+        String Dirpath =br.readLine();
         System.out.println("Enter the dirname");
         String dname=br.readLine();
 
@@ -45,3 +45,4 @@ class Contents
             System.out.println("Directory not found");
     }
 }
+// This is for a long line error for java which is set at a 100 characters according to the Google Java style Guide.

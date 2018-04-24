@@ -18,11 +18,11 @@ def main():
     if config.is_folder:
         result = {}
         for file in config.in_file:
-            result[file] = (general.get_info(file))
+            result[file] = (general.get_info(file,config.out_file))
     else:
-        result = general.get_info(config.in_file)
+        result = general.get_info(config.in_file, config.out_file)
 
-    all_results = ResultStore(config.out_file,config.is_folder)
+    all_results = ResultStore(config.out_file, config.is_folder)
     if config.is_folder:
         for file in result:
             all_results.store(result[file])
@@ -168,7 +168,7 @@ class ResultStore:
 
     def output(self):
         print("Printing file")
-        with open(self.outfile,'w') as out:
+        with open(self.outfile, 'w') as out:
             self.output_main(out)
 
     def output_main(self, outstream):

@@ -1,0 +1,27 @@
+Name of source code file: evaluator/test.java
+General Style Information
+-Source Language: Java
+-Number of Classes: 1
+-Number of Methods: 1
+-Total No. of lines in source: 48
+-No. of lines of Code: 31
+-No. of blank lines: 6
+-No. of lines of comments: 11
+-Percentage of lines of comments: 22.92%
+-Longest Line: 48
+-Length of longest line: 117
+-Number of variables: 8
+-Number of single character variable names: 3
+-Number of other variables: 5
+-Number of other For loops: 1
+-Number of other While loops: 0
+-Number of other Do While loops: 0
+-Number of other If statements: 1
+-Number of other Switch statements: 0
+
+Style Evaluation
+line:14 pos:16 Error: variable name should be lower camelCase
+line:48 pos:101 Error: line too long (116 > 100 characters)
+
+ 
+

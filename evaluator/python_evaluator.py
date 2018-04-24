@@ -1,10 +1,14 @@
 import pycodestyle
 import pyflakes
 from flake8.api import legacy as flake
+import subprocess
+import os.path
 
 class PythonGenEval:
-    def __init__(self, in_file):
+    def __init__(self, in_file, out_file):
         self.file = in_file
+        self.output = out_file
+
 
     def get_lines(self):
         lines_of_code = 0
@@ -51,15 +55,13 @@ class PythonGenEval:
         return details
 
     def get_style_eval(self):
-        # f_checker = pycodestyle.Checker(self.file, show_source=False, quiet=True)
-        # report = f_checker.report
-        # print(report)
-        # file_errors = f_checker.check_all()
-        # print("Found %s errors (and warnings)" % file_errors)
-        style_guide = flake.get_style_guide(
-            # quiet=1,
-            format='Error: line:%(row)d pos:%(col)d %(text)s',
-            output_file="initial.txt"
-        )
-        report = style_guide.input_file(self.file)
-        return []
+        report = []
+        output = self.output
+        if os.path.exists(output):
+            open(output, 'w').close()
+        subprocess.call(["flake8", "--filename", "./%s" % self.file, "--output-file", output, "--format", "line:%(row)d pos:%(col)d Error: %(text)s"])
+        with open(output) as f:
+            for i, l in enumerate(f):
+                report.append(l.rstrip())
+
+        return report

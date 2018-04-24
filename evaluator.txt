@@ -3,17 +3,40 @@ General Style Information
 -Source Language: Python
 -Number of Classes: 1
 -Number of Functions: 7
--Total No. of lines in source: 145
--No. of lines of Code: 108
+-Total No. of lines in source: 139
+-No. of lines of Code: 107
 -No. of blank lines: 20
--No. of lines of comments: 17
--Percentage of lines of comments: 11.72%
--Longest Line: 71
+-No. of lines of comments: 12
+-Percentage of lines of comments: 8.63%
+-Longest Line: 67
 -Length of longest line: 133
 
-
 Style Evaluation
-No Style Errors
+Error: line:28 pos:80 line too long (96 > 79 characters)
+Error: line:32 pos:17 local variable 'index' is assigned to but never used
+Error: line:43 pos:80 line too long (82 > 79 characters)
+Error: line:47 pos:80 line too long (89 > 79 characters)
+Error: line:47 pos:88 whitespace before ':'
+Error: line:63 pos:80 line too long (122 > 79 characters)
+Error: line:64 pos:20 continuation line under-indented for visual indent
+Error: line:64 pos:80 line too long (98 > 79 characters)
+Error: line:65 pos:20 continuation line under-indented for visual indent
+Error: line:65 pos:80 line too long (99 > 79 characters)
+Error: line:66 pos:21 continuation line under-indented for visual indent
+Error: line:66 pos:80 line too long (109 > 79 characters)
+Error: line:67 pos:21 continuation line under-indented for visual indent
+Error: line:67 pos:80 line too long (132 > 79 characters)
+Error: line:68 pos:80 line too long (81 > 79 characters)
+Error: line:76 pos:17 missing whitespace after ','
+Error: line:85 pos:17 missing whitespace after ','
+Error: line:98 pos:80 line too long (80 > 79 characters)
+Error: line:101 pos:80 line too long (100 > 79 characters)
+Error: line:105 pos:80 line too long (99 > 79 characters)
+Error: line:107 pos:80 line too long (96 > 79 characters)
+Error: line:112 pos:80 line too long (80 > 79 characters)
+Error: line:115 pos:80 line too long (100 > 79 characters)
+Error: line:122 pos:80 line too long (88 > 79 characters)
+Error: line:132 pos:80 line too long (102 > 79 characters)
 
  
 
@@ -30,9 +53,29 @@ General Style Information
 -Longest Line: 54
 -Length of longest line: 110
 
-
 Style Evaluation
-No Style Errors
+Error: line:10 pos:22 missing whitespace after ','
+Error: line:18 pos:80 line too long (86 > 79 characters)
+Error: line:19 pos:80 line too long (88 > 79 characters)
+Error: line:20 pos:80 line too long (91 > 79 characters)
+Error: line:21 pos:80 line too long (85 > 79 characters)
+Error: line:22 pos:80 line too long (81 > 79 characters)
+Error: line:23 pos:80 line too long (93 > 79 characters)
+Error: line:24 pos:80 line too long (99 > 79 characters)
+Error: line:26 pos:80 line too long (90 > 79 characters)
+Error: line:35 pos:80 line too long (80 > 79 characters)
+Error: line:36 pos:80 line too long (92 > 79 characters)
+Error: line:44 pos:80 line too long (86 > 79 characters)
+Error: line:45 pos:80 line too long (86 > 79 characters)
+Error: line:46 pos:80 line too long (91 > 79 characters)
+Error: line:47 pos:80 line too long (85 > 79 characters)
+Error: line:48 pos:80 line too long (81 > 79 characters)
+Error: line:49 pos:80 line too long (93 > 79 characters)
+Error: line:50 pos:80 line too long (99 > 79 characters)
+Error: line:52 pos:80 line too long (90 > 79 characters)
+Error: line:53 pos:80 line too long (90 > 79 characters)
+Error: line:54 pos:80 line too long (109 > 79 characters)
+Error: line:55 pos:80 line too long (92 > 79 characters)
 
  
 
@@ -49,7 +92,6 @@ General Style Information
 -Longest Line: 0
 -Length of longest line: 0
 
-
 Style Evaluation
 No Style Errors
 
@@ -60,17 +102,28 @@ General Style Information
 -Source Language: Python
 -Number of Classes: 1
 -Number of Functions: 3
--Total No. of lines in source: 65
--No. of lines of Code: 47
--No. of blank lines: 5
--No. of lines of comments: 13
--Percentage of lines of comments: 20.00%
--Longest Line: 46
--Length of longest line: 122
-
+-Total No. of lines in source: 79
+-No. of lines of Code: 53
+-No. of blank lines: 8
+-No. of lines of comments: 18
+-Percentage of lines of comments: 22.78%
+-Longest Line: 74
+-Length of longest line: 151
 
 Style Evaluation
-No Style Errors
+Error: line:1 pos:1 'pycodestyle' imported but unused
+Error: line:2 pos:1 'pyflakes' imported but unused
+Error: line:3 pos:1 'flake8.api.legacy as flake' imported but unused
+Error: line:7 pos:1 expected 2 blank lines, found 1
+Error: line:13 pos:5 too many blank lines (2)
+Error: line:25 pos:80 line too long (96 > 79 characters)
+Error: line:49 pos:80 line too long (86 > 79 characters)
+Error: line:50 pos:80 line too long (121 > 79 characters)
+Error: line:51 pos:80 line too long (98 > 79 characters)
+Error: line:52 pos:80 line too long (99 > 79 characters)
+Error: line:53 pos:80 line too long (108 > 79 characters)
+Error: line:59 pos:80 line too long (83 > 79 characters)
+Error: line:74 pos:80 line too long (150 > 79 characters)
 
  
 
@@ -79,17 +132,24 @@ General Style Information
 -Source Language: Python
 -Number of Classes: 3
 -Number of Functions: 10
--Total No. of lines in source: 187
--No. of lines of Code: 154
--No. of blank lines: 26
+-Total No. of lines in source: 190
+-No. of lines of Code: 158
+-No. of blank lines: 25
 -No. of lines of comments: 7
--Percentage of lines of comments: 3.74%
--Longest Line: 179
+-Percentage of lines of comments: 3.68%
+-Longest Line: 182
 -Length of longest line: 133
 
-
 Style Evaluation
-No Style Errors
+Error: line:1 pos:80 line too long (80 > 79 characters)
+Error: line:17 pos:80 line too long (82 > 79 characters)
+Error: line:21 pos:50 missing whitespace after ','
+Error: line:135 pos:22 missing whitespace after ','
+Error: line:158 pos:22 missing whitespace after ','
+Error: line:182 pos:80 line too long (132 > 79 characters)
+Error: line:186 pos:80 line too long (104 > 79 characters)
+Error: line:187 pos:80 line too long (86 > 79 characters)
+Error: line:189 pos:80 line too long (119 > 79 characters)
 
  
 
@@ -105,7 +165,6 @@ General Style Information
 -Percentage of lines of comments: 0.00%
 -Longest Line: 1
 -Length of longest line: 28
-
 
 Style Evaluation
 No Style Errors

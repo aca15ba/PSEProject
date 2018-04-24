@@ -7,10 +7,10 @@ class GeneralEvaluator:
         self.input = in_file
         self.language = language
 
-    def get_info(self,file):
+    def get_info(self,file, out_file):
         result = []
         if self.language == "python":
-            python = python_evaluator.PythonGenEval(file)
+            python = python_evaluator.PythonGenEval(file, out_file)
             details = python.get_lines()
             result.append("Name of source code file: " + file)
             result.append("General Style Information")
@@ -25,7 +25,7 @@ class GeneralEvaluator:
             result.append("-Longest Line: %s" % details.get("longest_line"))
             result.append("-Length of longest line: %s" % details.get("length_long_line"))
             # print(python.get_lines())
-            result.append("\n")
+            result.append("")
             result.append("Style Evaluation")
             style = python.get_style_eval()
             if len(style) < 1:
@@ -52,8 +52,14 @@ class GeneralEvaluator:
             result.append("-Length of longest line: %s" % details.get("length_long_line"))
             result.append("-Number of variables: %s" % details.get("number_of_variables"))
             result.append("-Number of single character variable names: %s" % details.get("number_of_single"))
+            result.append("-Number of constant variables: %s" % details.get("number_of_constants"))
             result.append("-Number of other variables: %s" % details.get("number_of_other"))
-            result.append("\n")
+            result.append("-Number of For loops: %s" % details.get("number_of_for"))
+            result.append("-Number of While loops: %s" % details.get("number_of_while"))
+            result.append("-Number of Do While loops: %s" % details.get("number_of_dowhile"))
+            result.append("-Number of If statements: %s" % details.get("number_of_if"))
+            result.append("-Number of Switch statements: %s" % details.get("number_of_switch"))
+            result.append("")
             result.append("Style Evaluation")
             style = java.get_style_eval()
             if len(style) < 1:
