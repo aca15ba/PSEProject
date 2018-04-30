@@ -24,6 +24,7 @@ class GeneralEvaluator:
             result.append("-Percentage of lines of comments: %s" % details.get("percent_comments"))
             result.append("-Longest Line: %s" % details.get("longest_line"))
             result.append("-Length of longest line: %s" % details.get("length_long_line"))
+            # print(python.get_lines())
             result.append("")
             result.append("Style Evaluation")
             style = python.get_style_eval()

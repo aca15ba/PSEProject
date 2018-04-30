@@ -6,20 +6,15 @@ import fnmatch
 import evaluator.general_evluator as general_evaluator
 
 
-# Version
-__version__ = "3.0.0"
+__version__ = "0.1.0"
 
 
 def main():
-    """Main class calls functions to parse command line options and
-    evaluate the file or folder parsed. Then outputs result to file"""
     print("Programme style evaluator")
-    # Create the parser and parse arguments
     parser = create_parser()
     args = parser.parse_args()
     config = CommandLine(parser, args)
-    # Create file evaluator and evaluate file(s)
-    general = general_evaluator.GeneralEvaluator(config.in_file, config.language)
+    general = general_evaluator.GeneralEvaluator(config.in_file, config.language,)
     if config.is_folder:
         result = {}
         for file in config.in_file:
@@ -27,7 +22,6 @@ def main():
     else:
         result = general.get_info(config.in_file, config.out_file)
 
-    # print style report to file
     all_results = ResultStore(config.out_file)
     if config.is_folder:
         for file in result:
@@ -39,8 +33,6 @@ def main():
 
 
 class CommandLine:
-    """Command line class: used for parsing and validating user input
-    returns configuration for style evaluator"""
     def __init__(self, parser, args):
         self.is_folder = False
         if args.file:
@@ -141,8 +133,6 @@ class CommandLine:
 
 
 class FileManager:
-    """File Manager Class: has methods to get file language and
-    output file name"""
     def __init__(self,input_file):
         self.input_file = input_file
 
@@ -168,7 +158,6 @@ class FileManager:
 
 # class for storing evaluation results
 class ResultStore:
-    """Result Store Class: Used to output result to report to file"""
     def __init__(self,outfile):
         self.outfile = outfile
         self.results = []
@@ -194,7 +183,7 @@ def create_parser():
     group = required_named.add_mutually_exclusive_group()
     group.add_argument('-f', '--file', help='specify input file')
     group.add_argument('-F', '--folder', help='specify input folder, language should also be specified')
-    parser.add_argument('-v', '--version', action='version', version='%(prog)s 3.0.0')
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s 0.1.0')
     parser.add_argument('-o', '--output', help='specify output file name')
     parser.add_argument('-l', '--language', help='specify language to evaluated', type=str, choices=["python", "java"])
     return parser

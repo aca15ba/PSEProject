@@ -16,8 +16,9 @@ import sheffield.EasyReader;
 */
 public class BeanMachine {
     static final ImmutableList<String> NAMES = ImmutableList.of("Ed", "Ann");
+    static final int NUMBER = 5;
 
-// This is for a long line error for java which is set at a 100 characters according to the Google Java style Guide.
+// This is for a long line error for java which is set at a 100 characters according to the Google Java style Guides.
 	public static void main(String[] args) {
 		
 		//declare variables
@@ -127,8 +128,19 @@ public class BeanMachine {
 	}
 }
 
-public class primitiveParameters
-{
+public class primitiveParameters{
+
+    /** the snippet returns the minimum between two numbers */
+
+    public static int minFUnction(int n1, int n2) {
+       int min;
+       if (n1 > n2)
+          min = n2;
+       else
+          min = n1;
+
+       return min;
+    }
 	public static void main(String[] args)
 	{	go();
 	}
@@ -151,7 +163,7 @@ public class primitiveParameters
 		System.out.println("in method falseSwap. x: " + x + " y: " + y);
 	}
 
-	public static void moreParameters(int a, int b)
+	public static void MoreParameters(int a, int b)
 	{	System.out.println("in method moreParameters. a: " + a + " b: " + b);
 		a = a * b;
 		b = 12;

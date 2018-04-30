@@ -3,24 +3,23 @@ General Style Information
 -Source Language: Python
 -Number of Classes: 3
 -Number of Functions: 10
--Total No. of lines in source: 190
--No. of lines of Code: 158
--No. of blank lines: 25
--No. of lines of comments: 7
--Percentage of lines of comments: 3.68%
--Longest Line: 182
+-Total No. of lines in source: 200
+-No. of lines of Code: 169
+-No. of blank lines: 23
+-No. of lines of comments: 8
+-Percentage of lines of comments: 4.00%
+-Longest Line: 192
 -Length of longest line: 133
 
 Style Evaluation
 line:1 pos:80 Error: line too long (80 > 79 characters)
-line:17 pos:80 Error: line too long (82 > 79 characters)
-line:21 pos:50 Error: missing whitespace after ','
-line:135 pos:22 Error: missing whitespace after ','
-line:158 pos:22 Error: missing whitespace after ','
-line:182 pos:80 Error: line too long (132 > 79 characters)
-line:186 pos:80 Error: line too long (104 > 79 characters)
-line:187 pos:80 Error: line too long (86 > 79 characters)
-line:189 pos:80 Error: line too long (119 > 79 characters)
+line:22 pos:80 Error: line too long (81 > 79 characters)
+line:26 pos:50 Error: missing whitespace after ','
+line:146 pos:22 Error: missing whitespace after ','
+line:172 pos:22 Error: missing whitespace after ','
+line:192 pos:80 Error: line too long (132 > 79 characters)
+line:196 pos:80 Error: line too long (104 > 79 characters)
+line:197 pos:80 Error: line too long (86 > 79 characters)
+line:199 pos:80 Error: line too long (119 > 79 characters)
 
- 
 

@@ -1,0 +1,4 @@
+flake8
+javalang
+pep8-naming
+pycodestyle

@@ -1,0 +1,33 @@
+Name of source code file: test_files/BeanMachine.java
+General Style Information
+-Source Language: Java
+-Number of Classes: 2
+-Number of Methods: 6
+-Total No. of lines in source: 174
+-No. of lines of Code: 119
+-No. of blank lines: 26
+-No. of lines of comments: 29
+-Percentage of lines of comments: 16.67%
+-Longest Line: 21
+-Length of longest line: 118
+-Number of variables: 27
+-Number of single character variable names: 6
+-Number of constant variables: 5
+-Number of other variables: 16
+-Number of For loops: 6
+-Number of While loops: 0
+-Number of Do While loops: 1
+-Number of If statements: 7
+-Number of Switch statements: 0
+
+Style Evaluation
+line:131 pos:14 Error: class name 'primitiveParameters' should use upper CamelCase
+line:21 pos:101 Error: line too long (117 > 100 characters)
+line:25 pos:7 Error: variable name 'Balls' should use lower camelCase
+line:27 pos:13 Error: constant name '_MAX_BALLS' should use CONSTANT_CASE
+line:28 pos:16 Error: constant name 'MAX_BUCKETS_' should use CONSTANT_CASE
+line:29 pos:13 Error: constant name 'COUNTs' should use CONSTANT_CASE
+line:8 pos:101 Error: line too long (116 > 100 characters)
+line:N/A pos:N/A Error: method name 'MoreParameters' should use upper CamelCase
+
+

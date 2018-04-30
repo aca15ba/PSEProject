@@ -2,82 +2,123 @@ Name of source code file: evaluator/java_evaluator.py
 General Style Information
 -Source Language: Python
 -Number of Classes: 1
--Number of Functions: 7
--Total No. of lines in source: 139
--No. of lines of Code: 107
--No. of blank lines: 20
--No. of lines of comments: 12
--Percentage of lines of comments: 8.63%
--Longest Line: 67
--Length of longest line: 133
+-Number of Functions: 9
+-Total No. of lines in source: 224
+-No. of lines of Code: 169
+-No. of blank lines: 22
+-No. of lines of comments: 33
+-Percentage of lines of comments: 14.73%
+-Longest Line: 85
+-Length of longest line: 144
 
 Style Evaluation
-Error: line:28 pos:80 line too long (96 > 79 characters)
-Error: line:32 pos:17 local variable 'index' is assigned to but never used
-Error: line:43 pos:80 line too long (82 > 79 characters)
-Error: line:47 pos:80 line too long (89 > 79 characters)
-Error: line:47 pos:88 whitespace before ':'
-Error: line:63 pos:80 line too long (122 > 79 characters)
-Error: line:64 pos:20 continuation line under-indented for visual indent
-Error: line:64 pos:80 line too long (98 > 79 characters)
-Error: line:65 pos:20 continuation line under-indented for visual indent
-Error: line:65 pos:80 line too long (99 > 79 characters)
-Error: line:66 pos:21 continuation line under-indented for visual indent
-Error: line:66 pos:80 line too long (109 > 79 characters)
-Error: line:67 pos:21 continuation line under-indented for visual indent
-Error: line:67 pos:80 line too long (132 > 79 characters)
-Error: line:68 pos:80 line too long (81 > 79 characters)
-Error: line:76 pos:17 missing whitespace after ','
-Error: line:85 pos:17 missing whitespace after ','
-Error: line:98 pos:80 line too long (80 > 79 characters)
-Error: line:101 pos:80 line too long (100 > 79 characters)
-Error: line:105 pos:80 line too long (99 > 79 characters)
-Error: line:107 pos:80 line too long (96 > 79 characters)
-Error: line:112 pos:80 line too long (80 > 79 characters)
-Error: line:115 pos:80 line too long (100 > 79 characters)
-Error: line:122 pos:80 line too long (88 > 79 characters)
-Error: line:132 pos:80 line too long (102 > 79 characters)
+line:34 pos:80 Error: line too long (96 > 79 characters)
+line:38 pos:17 Error: local variable 'index' is assigned to but never used
+line:49 pos:80 Error: line too long (82 > 79 characters)
+line:53 pos:80 Error: line too long (89 > 79 characters)
+line:53 pos:88 Error: whitespace before ':'
+line:71 pos:80 Error: line too long (99 > 79 characters)
+line:80 pos:80 Error: line too long (122 > 79 characters)
+line:81 pos:20 Error: continuation line under-indented for visual indent
+line:81 pos:80 Error: line too long (98 > 79 characters)
+line:82 pos:20 Error: continuation line under-indented for visual indent
+line:82 pos:80 Error: line too long (99 > 79 characters)
+line:83 pos:21 Error: continuation line under-indented for visual indent
+line:83 pos:80 Error: line too long (111 > 79 characters)
+line:84 pos:21 Error: continuation line under-indented for visual indent
+line:84 pos:80 Error: line too long (132 > 79 characters)
+line:85 pos:21 Error: continuation line under-indented for visual indent
+line:85 pos:80 Error: line too long (143 > 79 characters)
+line:86 pos:21 Error: continuation line under-indented for visual indent
+line:86 pos:62 Error: missing whitespace after ','
+line:87 pos:21 Error: continuation line under-indented for visual indent
+line:87 pos:66 Error: missing whitespace after ','
+line:87 pos:70 Error: missing whitespace after ','
+line:87 pos:80 Error: line too long (124 > 79 characters)
+line:87 pos:120 Error: missing whitespace after ','
+line:88 pos:21 Error: continuation line under-indented for visual indent
+line:88 pos:60 Error: missing whitespace after ','
+line:88 pos:64 Error: missing whitespace after ','
+line:88 pos:80 Error: line too long (116 > 79 characters)
+line:88 pos:112 Error: missing whitespace after ','
+line:106 pos:17 Error: missing whitespace after ','
+line:115 pos:17 Error: missing whitespace after ','
+line:117 pos:17 Error: missing whitespace after ','
+line:119 pos:17 Error: missing whitespace after ','
+line:125 pos:80 Error: line too long (81 > 79 characters)
+line:127 pos:17 Error: missing whitespace after ','
+line:129 pos:17 Error: missing whitespace after ','
+line:143 pos:80 Error: line too long (80 > 79 characters)
+line:146 pos:80 Error: line too long (100 > 79 characters)
+line:147 pos:80 Error: line too long (92 > 79 characters)
+line:150 pos:80 Error: line too long (99 > 79 characters)
+line:152 pos:80 Error: line too long (96 > 79 characters)
+line:153 pos:80 Error: line too long (88 > 79 characters)
+line:157 pos:80 Error: line too long (80 > 79 characters)
+line:161 pos:80 Error: line too long (100 > 79 characters)
+line:162 pos:80 Error: line too long (92 > 79 characters)
+line:164 pos:80 Error: line too long (100 > 79 characters)
+line:169 pos:80 Error: line too long (80 > 79 characters)
+line:170 pos:80 Error: line too long (87 > 79 characters)
+line:171 pos:80 Error: line too long (99 > 79 characters)
+line:176 pos:80 Error: line too long (91 > 79 characters)
+line:182 pos:80 Error: line too long (105 > 79 characters)
+line:194 pos:80 Error: line too long (101 > 79 characters)
+line:195 pos:80 Error: line too long (93 > 79 characters)
+line:202 pos:80 Error: line too long (81 > 79 characters)
+line:203 pos:80 Error: line too long (103 > 79 characters)
+line:204 pos:80 Error: line too long (93 > 79 characters)
+line:208 pos:80 Error: line too long (81 > 79 characters)
+line:209 pos:80 Error: line too long (101 > 79 characters)
+line:215 pos:80 Error: line too long (81 > 79 characters)
+line:216 pos:80 Error: line too long (100 > 79 characters)
+line:217 pos:80 Error: line too long (93 > 79 characters)
+line:223 pos:80 Error: line too long (102 > 79 characters)
 
- 
 
 Name of source code file: evaluator/general_evluator.py
 General Style Information
 -Source Language: Python
 -Number of Classes: 1
 -Number of Functions: 2
--Total No. of lines in source: 63
--No. of lines of Code: 56
+-Total No. of lines in source: 69
+-No. of lines of Code: 62
 -No. of blank lines: 4
 -No. of lines of comments: 3
--Percentage of lines of comments: 4.76%
+-Percentage of lines of comments: 4.35%
 -Longest Line: 54
 -Length of longest line: 110
 
 Style Evaluation
-Error: line:10 pos:22 missing whitespace after ','
-Error: line:18 pos:80 line too long (86 > 79 characters)
-Error: line:19 pos:80 line too long (88 > 79 characters)
-Error: line:20 pos:80 line too long (91 > 79 characters)
-Error: line:21 pos:80 line too long (85 > 79 characters)
-Error: line:22 pos:80 line too long (81 > 79 characters)
-Error: line:23 pos:80 line too long (93 > 79 characters)
-Error: line:24 pos:80 line too long (99 > 79 characters)
-Error: line:26 pos:80 line too long (90 > 79 characters)
-Error: line:35 pos:80 line too long (80 > 79 characters)
-Error: line:36 pos:80 line too long (92 > 79 characters)
-Error: line:44 pos:80 line too long (86 > 79 characters)
-Error: line:45 pos:80 line too long (86 > 79 characters)
-Error: line:46 pos:80 line too long (91 > 79 characters)
-Error: line:47 pos:80 line too long (85 > 79 characters)
-Error: line:48 pos:80 line too long (81 > 79 characters)
-Error: line:49 pos:80 line too long (93 > 79 characters)
-Error: line:50 pos:80 line too long (99 > 79 characters)
-Error: line:52 pos:80 line too long (90 > 79 characters)
-Error: line:53 pos:80 line too long (90 > 79 characters)
-Error: line:54 pos:80 line too long (109 > 79 characters)
-Error: line:55 pos:80 line too long (92 > 79 characters)
+line:10 pos:22 Error: missing whitespace after ','
+line:18 pos:80 Error: line too long (86 > 79 characters)
+line:19 pos:80 Error: line too long (88 > 79 characters)
+line:20 pos:80 Error: line too long (91 > 79 characters)
+line:21 pos:80 Error: line too long (85 > 79 characters)
+line:22 pos:80 Error: line too long (81 > 79 characters)
+line:23 pos:80 Error: line too long (93 > 79 characters)
+line:24 pos:80 Error: line too long (99 > 79 characters)
+line:26 pos:80 Error: line too long (90 > 79 characters)
+line:35 pos:80 Error: line too long (80 > 79 characters)
+line:36 pos:80 Error: line too long (92 > 79 characters)
+line:44 pos:80 Error: line too long (86 > 79 characters)
+line:45 pos:80 Error: line too long (86 > 79 characters)
+line:46 pos:80 Error: line too long (91 > 79 characters)
+line:47 pos:80 Error: line too long (85 > 79 characters)
+line:48 pos:80 Error: line too long (81 > 79 characters)
+line:49 pos:80 Error: line too long (93 > 79 characters)
+line:50 pos:80 Error: line too long (99 > 79 characters)
+line:52 pos:80 Error: line too long (90 > 79 characters)
+line:53 pos:80 Error: line too long (90 > 79 characters)
+line:54 pos:80 Error: line too long (109 > 79 characters)
+line:55 pos:80 Error: line too long (99 > 79 characters)
+line:56 pos:80 Error: line too long (92 > 79 characters)
+line:57 pos:80 Error: line too long (84 > 79 characters)
+line:58 pos:80 Error: line too long (88 > 79 characters)
+line:59 pos:80 Error: line too long (93 > 79 characters)
+line:60 pos:80 Error: line too long (87 > 79 characters)
+line:61 pos:80 Error: line too long (95 > 79 characters)
 
- 
 
 Name of source code file: evaluator/__init__.py
 General Style Information
@@ -95,63 +136,54 @@ General Style Information
 Style Evaluation
 No Style Errors
 
- 
 
 Name of source code file: evaluator/python_evaluator.py
 General Style Information
 -Source Language: Python
 -Number of Classes: 1
 -Number of Functions: 3
--Total No. of lines in source: 79
--No. of lines of Code: 53
--No. of blank lines: 8
--No. of lines of comments: 18
--Percentage of lines of comments: 22.78%
--Longest Line: 74
--Length of longest line: 151
+-Total No. of lines in source: 69
+-No. of lines of Code: 57
+-No. of blank lines: 5
+-No. of lines of comments: 7
+-Percentage of lines of comments: 10.14%
+-Longest Line: 48
+-Length of longest line: 122
 
 Style Evaluation
-Error: line:1 pos:1 'pycodestyle' imported but unused
-Error: line:2 pos:1 'pyflakes' imported but unused
-Error: line:3 pos:1 'flake8.api.legacy as flake' imported but unused
-Error: line:7 pos:1 expected 2 blank lines, found 1
-Error: line:13 pos:5 too many blank lines (2)
-Error: line:25 pos:80 line too long (96 > 79 characters)
-Error: line:49 pos:80 line too long (86 > 79 characters)
-Error: line:50 pos:80 line too long (121 > 79 characters)
-Error: line:51 pos:80 line too long (98 > 79 characters)
-Error: line:52 pos:80 line too long (99 > 79 characters)
-Error: line:53 pos:80 line too long (108 > 79 characters)
-Error: line:59 pos:80 line too long (83 > 79 characters)
-Error: line:74 pos:80 line too long (150 > 79 characters)
+line:23 pos:80 Error: line too long (96 > 79 characters)
+line:47 pos:80 Error: line too long (86 > 79 characters)
+line:48 pos:80 Error: line too long (121 > 79 characters)
+line:49 pos:80 Error: line too long (98 > 79 characters)
+line:50 pos:80 Error: line too long (99 > 79 characters)
+line:51 pos:80 Error: line too long (108 > 79 characters)
+line:60 pos:80 Error: line too long (109 > 79 characters)
 
- 
 
 Name of source code file: evaluator/evaluator.py
 General Style Information
 -Source Language: Python
 -Number of Classes: 3
 -Number of Functions: 10
--Total No. of lines in source: 190
--No. of lines of Code: 158
--No. of blank lines: 25
--No. of lines of comments: 7
--Percentage of lines of comments: 3.68%
--Longest Line: 182
+-Total No. of lines in source: 200
+-No. of lines of Code: 169
+-No. of blank lines: 23
+-No. of lines of comments: 8
+-Percentage of lines of comments: 4.00%
+-Longest Line: 192
 -Length of longest line: 133
 
 Style Evaluation
-Error: line:1 pos:80 line too long (80 > 79 characters)
-Error: line:17 pos:80 line too long (82 > 79 characters)
-Error: line:21 pos:50 missing whitespace after ','
-Error: line:135 pos:22 missing whitespace after ','
-Error: line:158 pos:22 missing whitespace after ','
-Error: line:182 pos:80 line too long (132 > 79 characters)
-Error: line:186 pos:80 line too long (104 > 79 characters)
-Error: line:187 pos:80 line too long (86 > 79 characters)
-Error: line:189 pos:80 line too long (119 > 79 characters)
+line:1 pos:80 Error: line too long (80 > 79 characters)
+line:22 pos:80 Error: line too long (81 > 79 characters)
+line:26 pos:50 Error: missing whitespace after ','
+line:146 pos:22 Error: missing whitespace after ','
+line:172 pos:22 Error: missing whitespace after ','
+line:192 pos:80 Error: line too long (132 > 79 characters)
+line:196 pos:80 Error: line too long (104 > 79 characters)
+line:197 pos:80 Error: line too long (86 > 79 characters)
+line:199 pos:80 Error: line too long (119 > 79 characters)
 
- 
 
 Name of source code file: evaluator/__main__.py
 General Style Information
@@ -169,5 +201,4 @@ General Style Information
 Style Evaluation
 No Style Errors
 
- 
 

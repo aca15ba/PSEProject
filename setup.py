@@ -10,12 +10,19 @@ version = re.search(
 
 setup(
     name="evaluator",
-    version= version,
+    version=version,
     packages=find_packages(),
-    entry_points = {
+    entry_points={
         "console_scripts": ['evaluator = evaluator.evaluator:main']
         },
-    description = "Python command line application to evaluate source code style.",
-    author = "Babatunde N. Adeola",
-    author_email = "babatunde.adeola12@yahoo.com",
+    description="Python command line application to evaluate source code style."
+                  "Evaluates both Java and Python files",
+    author="Babatunde N. Adeola",
+    author_email="babatunde.adeola12@yahoo.com",
+    install_requires=[
+        "flake8",
+        "javalang",
+        "pep8-naming",
+        "pycodestyle"
+    ]
 )

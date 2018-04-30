@@ -1,0 +1,25 @@
+Name of source code file: test_files/evaluator.py
+General Style Information
+-Source Language: Python
+-Number of Classes: 3
+-Number of Functions: 10
+-Total No. of lines in source: 189
+-No. of lines of Code: 162
+-No. of blank lines: 23
+-No. of lines of comments: 4
+-Percentage of lines of comments: 2.12%
+-Longest Line: 181
+-Length of longest line: 133
+
+Style Evaluation
+line:1 pos:80 Error: line too long (80 > 79 characters)
+line:17 pos:80 Error: line too long (82 > 79 characters)
+line:21 pos:50 Error: missing whitespace after ','
+line:136 pos:22 Error: missing whitespace after ','
+line:161 pos:22 Error: missing whitespace after ','
+line:181 pos:80 Error: line too long (132 > 79 characters)
+line:185 pos:80 Error: line too long (104 > 79 characters)
+line:186 pos:80 Error: line too long (86 > 79 characters)
+line:188 pos:80 Error: line too long (119 > 79 characters)
+
+
